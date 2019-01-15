@@ -1,11 +1,7 @@
 #pragma once
 
-namespace nn { namespace vfx { 
+namespace nn { namespace vfx { namespace ProcessingInfo {
 
-class ProcessingInfo
-{
-public:
-    UpdateProcessingInfo(nn::vfx::Emitter const*);
-};
+UpdateProcessingInfo(nn::vfx::Emitter const*);
 
-} } 
+} } } 
